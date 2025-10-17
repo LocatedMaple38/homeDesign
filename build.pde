@@ -59,6 +59,9 @@ void buildKeyPressed(){
       hvac = false;
     }
   }
+  if(build && key == 'w' || key == 'W'){
+    wall = wall ? false : true;
+  }
 }
 
 void buildMousePressed(){

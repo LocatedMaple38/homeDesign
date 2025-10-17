@@ -54,6 +54,9 @@ int backfround = #aaaaaa;
 int wallint = 1;
 float[] itemWallX = new float[wallint], itemWallY = new float[wallint], itemWallWidth = new float[wallint], itemWallHeight = new float[wallint];
 
+int snapint = 1000;
+float[] snapX = new float[snapint], snapY = new float[snapint], snapWidth = new float[snapint], snapHeight = new float[snapint];
+
 void setup(){
   size(500, 500);
   
